@@ -1,7 +1,10 @@
 #include<stdio.h>
+
 void main()
 {
-int i,value=10,sum=0;
+int i,value,sum=0;
+printf("\n enter a value to mind the sum of numbers ");
+scanf("%d",&value);
 for (i=0;i<value;i++)
 {
   sum+=i;
